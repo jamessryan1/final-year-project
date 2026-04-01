@@ -1,16 +1,16 @@
 # Early In-Hospital Mortality Prediction from Clinical Notes Using Small Language Models
 
-This repository contains the code for a Final Year Project on early patient risk prediction from **MIMIC-III** clinical notes using biomedical text embeddings, temporal trajectory features, and retrieval-based signals.
+This repository contains the code for a Final Year Project on early patient risk prediction from MIMIC-III clinical notes using biomedical text embeddings, temporal trajectory features, and retrieval-based signals.
 
-The main workflow focuses on **early in-hospital mortality prediction** from note text. An additional extension in `heart-failure-extension/` shows how the same general pipeline can be adapted to a second binary classification task: **admission-level heart failure detection**.
+The main workflow focuses on early in-hospital mortality prediction from note text. An additional extension in `heart-failure-extension/` shows how the same general pipeline can be adapted to a second binary classification task: admission-level heart failure detection.
 
 ## Important note on data access
 
-This repository **does not include MIMIC-III data**.
+This repository does not include MIMIC-III data.
 
-To run these notebooks, you must have **authorised access to MIMIC-III via PhysioNet** and local copies of the required CSV tables. You must point the notebooks to your own authorised copies of those files.
+To run these notebooks, you must have authorised access to MIMIC-III via PhysioNet** and local copies of the required CSV tables. You must point the notebooks to your own authorised copies of those files.
 
-This repository also **does not include the fine-tuned model weights**, since they were derived from credentialed MIMIC data. The repository provides the code needed to recreate the model in a compliant environment.
+This repository also does not include the fine-tuned model weights, since they were derived from credentialed MIMIC data. The repository provides the code needed to recreate the model in a compliant environment.
 
 ## Repository contents
 
